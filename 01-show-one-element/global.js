@@ -1,19 +1,11 @@
-const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
-
 window.addEventListener("load", function(){
-  // Here is some pseudo-code to help you get started:
+  const button = document.querySelector("#more_text_link")
+  const textToShow = document.querySelector("#more_text_content")
+  textToShow.style.display = "none"
 
-  // 1. Get the DOM element which will be clicked.
 
-  // 2. Add a listener for the 'click' event onto that element.
-
-  // 3. The block for the listener should get the DOM
-  //    element containing the text to reveal.
-
-  // 4. Modify that DOM element's style to change it's 'display'
-  //    from a hidden value to a shown value.
-
-  // 5. Also modify the DOM to hide the "More info..." link.
-
-})
+  button.addEventListener('click', function(e) {
+      textToShow.style.display = "initial"
+      button.style.display = "none"
+    })
+  });
