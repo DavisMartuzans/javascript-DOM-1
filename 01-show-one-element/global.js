@@ -1,5 +1,7 @@
-window.addEventListener("load", function(){
+const readMoreBtn = document.querySelector('.read-more-btn');
+const text = document.querySelector('.text');
 
+window.addEventListener("load", function(){
   // Here is some pseudo-code to help you get started:
 
   // 1. Get the DOM element which will be clicked.
@@ -13,5 +15,5 @@ window.addEventListener("load", function(){
   //    from a hidden value to a shown value.
 
   // 5. Also modify the DOM to hide the "More info..." link.
-  
-});
+
+})
