@@ -1,5 +1,4 @@
-  
-window.addEventListener("load", function(){
+  window.addEventListener("load", function(){
 
   // Here is some pseudo-code to help you get started:
 
